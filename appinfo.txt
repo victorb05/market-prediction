@@ -1,2 +1,17 @@
-"About the Application" 
-"This is a brief description of the application." 
+This repository contains a trading bot script.
+
+HOW TO ACCESS:
+1. Download the code to your local PC
+2. Change the code so that the variable for the API's coincide with your personal API Keys from Binance
+3. Run the code
+
+TIPS:
+1. You can probably run this once every 8 hours: 12AM UTC, 8AM UTC, 4PM UTC
+2. Let the code run 10 minutes before these times for the setup
+3. Let the code run at least 1 hour after these times to complete the script
+
+DESCRIPTION:
+This trading strategy relies on overbought cryptocurrencies with a high funding.
+Those coins usually experience a huge drop in price when funding is paid.
+We try to trade this drop and make more profits than what we paid in funding.
+The trading bot runs on Binance and Bybit APIs.
